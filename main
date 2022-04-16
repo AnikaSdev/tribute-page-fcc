@@ -1,0 +1,108 @@
+ /* begin css - thank you fcc */
+ 
+html {
+  font-size: 10px;
+  font-family: helvetica, arial, monospace;
+}
+
+#main {
+  background-color: #DDDDDD;
+}
+
+#title {
+  font-size: 24px;
+}
+
+#img-div {
+  
+}
+
+#tribute-info {
+  
+}
+
+#tribute-link {
+  
+}
+
+#img-caption {
+  margin: 0 5px 0 5px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 14px;
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+img {
+  height: auto;
+  width: 600px;
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body {
+ 
+}
+
+
+/* end css*/
+
+<main id="main">
+  <h1 id="title">Racoons - Procyon Lotor</h1>
+  <p>The adorable, yet misunderstood.</p>
+   <figure id="img-div">
+  <img
+       id="image"
+       src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg"
+       alt="An adult racoon is holding on to a tree with his dexterous hand-like paws."
+  />
+      <figcaption id="img-caption">
+      A brown-fur adult racoon is holding on to a tree with his dexterous hand-like paws.
+    </figcaption>
+    
+  </figure>
+ 
+  <div id="tribute-info">
+    <h3>Some common, and some uncommon facts about Racoons:</h3>
+    
+        <ul>
+          <li>Their habitat was originally only in North America, but now extends well into South America, and to Europe and parts of Japan via importation, escapes, and intentional introduction to the local ecosystems.</li>
+          <li>There are three primary species of Racoons: Common, North American, and Northern varieties.</li>
+          <li><i>Mammal Species of the World</i> recognizes 22 subspecies of raccoons, according to their 2005 article.</li>
+          <li>Their primary diet consists mostly of insects; fly larvae, small wasps, etc., but also berries, fruits, and scavenged foods from other predators. (including humans!)</li>
+          <li>They are opportunists and will eat human food or whatever is available, however the most common reason they will go diving into garbage is for the bugs!</li>
+          </li>
+    
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    
+          <h3>If you'd like to know more, please check out the article on <a
+        id="tribute-link"
+        href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+        target="_blank"
+        >Racoons on Wikipedia.</a>
+    
+    </ul>
+  </div>
+  
+</main>
